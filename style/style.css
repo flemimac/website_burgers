@@ -99,7 +99,7 @@ body {
 
 .currency {
 	border: 1px solid white;
-	padding: 11px;
+	padding: 11px 0;
 	box-sizing: border-box;
 	border-radius: 5px;
 	width: 45px;
@@ -187,7 +187,7 @@ body {
 	background-image: url('../img/burgers_bg.png');
 	background-position: top center;
 	background-size: 1400px;
-	padding: 180px;
+	padding-bottom: 180px;
 }
 
 .products-items {
@@ -241,14 +241,14 @@ body {
 	color: #757575;
 }
 
-.button .product-button {
+.button.product-button {
 	display: flex;
 	justify-content: center;
 	width: 182px;
 	height: 62px;
 }
 
-.button .product-button span:first-child {
+.button.product-button span:first-child {
 	margin-right: 10px;
 }
 
